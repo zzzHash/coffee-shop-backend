@@ -1,0 +1,27 @@
+{
+  "name": "coffee-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "info": "fastify print-routes src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "@prisma/client": "5.12.1",
+    "@scalar/fastify-api-reference": "^1.20.26",
+    "fastify": "^4.26.2",
+    "prisma": "^5.12.1",
+    "zod": "^3.22.4"
+  }
+}
